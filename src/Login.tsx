@@ -8,7 +8,7 @@ import { Titulo } from './componentes/Titulo';
 export default function Login({ navigation }) {
   return (
     <VStack flex={1} alignItems="center" justifyContent="center" p={5}>
-      <Image source={Logo} width={25} alt="Logo Voll" />
+      <Image source={Logo} alt="Logo Voll" />
 
       <Titulo>
         Faça login em sua conta
