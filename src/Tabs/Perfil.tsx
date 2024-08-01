@@ -3,7 +3,7 @@ import { Titulo } from '../componentes/Titulo'
 
 export default function Perfil(){
   return(
-    <ScrollView flex={1}>
+    <ScrollView flex={1} bgColor="black>
       <VStack flex={1} alignItems="center" p={5}>
         <Titulo color="blue.500">Meu Perfil</Titulo>
 
