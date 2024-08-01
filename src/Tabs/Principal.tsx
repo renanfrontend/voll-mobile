@@ -9,7 +9,7 @@ import { depoimentos } from "../utils/mock";
 export default function Principal(){
 
   return (
-    <ScrollView flex={1} bgColor="gray.300">
+    <ScrollView flex={1} bgColor="black">
       <VStack flex={1} alignItems="flex-start" justifyContent="flex-start" p={5}>
         <Image source={Logo} width={25} alt="Logo" mt={10} />
         <Titulo color="blue.500">Boas-vindas!</Titulo>
