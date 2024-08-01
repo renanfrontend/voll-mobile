@@ -11,7 +11,7 @@ export default function Principal(){
   return (
     <ScrollView flex={1} bgColor="black">
       <VStack flex={1} alignItems="flex-start" justifyContent="flex-start" p={5}>
-        <Image source={Logo} width={25} alt="Logo" mt={10} />
+        <Image source={Logo} width="container" alt="Logo" mt={10} />
         <Titulo color="blue.500">Boas-vindas!</Titulo>
 
         <Box w="100%" borderRadius="lg" p={3} mt={10} shadow="1" borderRightRadius="md">
