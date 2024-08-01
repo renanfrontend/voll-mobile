@@ -15,7 +15,7 @@ export function Botao({ children, autoSize = false, color, ...rest }: ButtonProp
       bg={color || 'blue.800'}
       mt={10}
       borderRadius="lg"
-      _text={{ color: 'white' }}
+      _text={{ color: 'gray.300' }}
       {...rest}
     >
       {children}

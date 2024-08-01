@@ -1,7 +1,7 @@
 import { VStack, Image, Text, Box, Link, Checkbox, ScrollView } from 'native-base'
 import { useState } from 'react';
 import { TouchableOpacity } from 'react-native';
-import Logo from './assets/Logo.png'
+import Logo from './assets/Logo_up_healthcare.png'
 import { Botao } from './componentes/Botao';
 import { EntradaTexto } from './componentes/EntradaTexto';
 import { Titulo } from './componentes/Titulo';
@@ -38,7 +38,7 @@ export default function Cadastro() {
         }
       </Box>
       <Box>
-        <Text color="blue.800" fontWeight="bold" fontSize="md" mt="2" mb={2}>
+        <Text color="white" fontWeight="bold" fontSize="md" mt="2" mb={2}>
           Selecione o plano:
         </Text>
         {

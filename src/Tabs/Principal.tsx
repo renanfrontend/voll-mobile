@@ -1,5 +1,5 @@
 import { VStack, Image, Box, ScrollView, Text, Divider } from "native-base";
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/Logo_up_healthcare.png';
 import { Botao } from "../componentes/Botao";
 import { EntradaTexto } from "../componentes/EntradaTexto";
 import { Titulo } from "../componentes/Titulo";
@@ -9,7 +9,7 @@ import { depoimentos } from "../utils/mock";
 export default function Principal(){
 
   return (
-    <ScrollView flex={1} bgColor="white">
+    <ScrollView flex={1} bgColor="gray.300">
       <VStack flex={1} alignItems="flex-start" justifyContent="flex-start" p={5}>
         <Image source={Logo} width={25} alt="Logo" mt={10} />
         <Titulo color="blue.500">Boas-vindas!</Titulo>

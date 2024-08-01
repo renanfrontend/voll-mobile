@@ -6,27 +6,27 @@ import { Titulo } from "../componentes/Titulo";
 
 export default function Explorar(){
   return(
-    <ScrollView flex={1} bgColor="white">
-      <VStack flex={1} alignItems="flex-start" justifyContent="flex-start" p={5}>
+    <ScrollView flex={1} bgColor="black">
+      <VStack flex={1} color="gray.300" alignItems="flex-start" justifyContent="flex-start" p={5}>
         <Box w="100%" borderRadius="lg" p={3} mt={5} shadow="1" borderRightRadius="md">
-          <EntradaTexto
+          <EntradaTexto 
             placeholder="Digite a especialidade"
           />
           <EntradaTexto
             placeholder="Digite sua localização"
           />
-          <Botao mt={3} mb={3}>
+          <Botao color="gray.300" mt={3} mb={3}>
             Buscar
           </Botao>
         </Box>
 
-        <Titulo color="blue.500" alignSelf="center">Resultado da Busca</Titulo>
+        <Titulo color="gray.300" alignSelf="center">Resultado da Busca</Titulo>
         {[1, 2, 3].map((_, index) => (
-          <VStack flex={1} w="100%" alignItems="flex-start" bgColor="white" key={index}>
+          <VStack flex={1} w="100%" alignItems="flex-start" bgColor="black" key={index}>
             <CardConsulta 
               especialidade="Cardiologia"
-              foto="https://github.com/andreocunha.png"
-              nome="Dr. Cunha"
+              foto="https://github.com/renanaugust.png"
+              nome="Dr. Augusto"
             />
           </VStack>
         ))}

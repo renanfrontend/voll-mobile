@@ -6,11 +6,11 @@ export const TEMAS = extendTheme({
       300: '#bbbbbb'
     },
     blue: {
-      500: '#3c4454',
-      800: '#0B3B90'
+      500: '#0B3B90',
+      800: '#3c4454'
     },
-    white: '#2c313c',
-    black: '#bbbbbb'
+    white: '#f2f2f2',
+    black: '#2c313c'
   },
   fontSizes: {
     xs: 12,

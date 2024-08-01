@@ -1,6 +1,6 @@
 import { VStack, Image, Text, Box, Link } from 'native-base'
 import { TouchableOpacity } from 'react-native';
-import Logo from './assets/Logo.png'
+import Logo from './assets/Logo_up_healthcare.png'
 import { Botao } from './componentes/Botao';
 import { EntradaTexto } from './componentes/EntradaTexto';
 import { Titulo } from './componentes/Titulo';
@@ -32,7 +32,7 @@ export default function Login({ navigation }) {
       <Box w="100%" flexDirection="row" justifyContent="center" mt={8}>
         <Text>Ainda não tem cadastro? </Text>
         <TouchableOpacity onPress={() => navigation.navigate('Cadastro')}>
-          <Text color="blue.500">
+          <Text color="white">
             Faça seu cadastro!
           </Text>
         </TouchableOpacity>
