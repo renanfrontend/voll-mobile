@@ -3,14 +3,14 @@ import { extendTheme } from 'native-base'
 export const TEMAS = extendTheme({
   colors: {
     gray: {
-      300: '#8D8D99'
+      300: '#bbbbbb'
     },
     blue: {
-      500: '#339CFF',
-      800: '#0B3B60'
+      500: '#3c4454',
+      800: '#0B3B90'
     },
-    white: '#fff',
-    black: '#000'
+    white: '#2c313c',
+    black: '#bbbbbb'
   },
   fontSizes: {
     xs: 12,
