@@ -30,8 +30,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "20d3e583-5fec-4ff2-95e3-e446d8e76241"
+        "projectId": "57236ca7-5ba9-4ac6-bfe4-a3264df99468"
       }
-    }
+    },
+    "owner": "renanfrontend"
   }
 }
