@@ -11,9 +11,9 @@ export default function Consultas(){
 
       <Titulo color="blue.500" fontSize="lg" alignSelf="flex-start" mb={2}>Próximas consultas</Titulo>
       <CardConsulta 
-        nome='Dr. Andre'
+        nome='Dr. Augusto'
         especialidade='Cardiologista'
-        foto='https://github.com/andreocunha.png'
+        foto='https://github.com/renanaugust.png'
         data='20/04/2023'
         foiAgendado
       />
@@ -22,9 +22,9 @@ export default function Consultas(){
 
       <Titulo color="blue.500" fontSize="lg" alignSelf="flex-start" mb={2}>Consultas passadas</Titulo>
       <CardConsulta 
-        nome='Dr. Andre'
+        nome='Dr. Renan'
         especialidade='Cardiologista'
-        foto='https://github.com/andreocunha.png'
+        foto='https://github.com/renanfrontend.png'
         data='20/04/2023'
         foiAtendido
       />
@@ -40,7 +40,7 @@ export default function Consultas(){
         especialidade='Cardiologista'
         foto='https://github.com/andreocunha.png'
         data='20/04/2023'
-        foiAtendido
+        foiAgendado
       />
     </ScrollView>
   )
