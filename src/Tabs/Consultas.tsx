@@ -5,7 +5,7 @@ import { Titulo } from '../componentes/Titulo'
 
 export default function Consultas(){
   return(
-    <ScrollView p="5">
+    <ScrollView p="5" bgColor="black>
       <Titulo color="blue.500">Minhas consultas</Titulo>
       <Botao mt={5} mb={5}>Agendar nova consulta</Botao>
 
